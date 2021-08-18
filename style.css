@@ -5,8 +5,8 @@
 }
 body {
   background: #10101b;
-  height: 100vh;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 .container {
   margin-top: 30px;
@@ -15,7 +15,7 @@ body {
 .half-width {
   height: 570px;
   background: #222436;
-  padding: 30px;
+  padding: 30px 0;
   text-align: center;
 }
 .generate-btn {
@@ -109,6 +109,12 @@ input[readonly]:focus {
 .notify-section {
   width: 50%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .notify-section {
+    width: 90%;
+  }
 }
 
 .action-left {
