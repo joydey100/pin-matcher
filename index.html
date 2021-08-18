@@ -10,7 +10,11 @@
 <body>
     <div class="container">
         <h2 class="my-5 text-center text-white">PIN Match</h2>
-        <div class="row">
+        <div class="notify-section">
+            <p class="notify bg-danger" id="notify-fail">❌ Pin Didn't Match, Please try again</p>
+            <p class="notify bg-success" id="notify-success">✅ Pin Matched... Secret door is opening for you</p>
+        </div>
+        <div class="row mt-5">
             <div class="col-md-6">
                 <div class="pin-generator half-width">
                     <input id="show-pin" class="form-control" type="text" readonly>
@@ -49,11 +53,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="notify-section">
-            <p class="notify" id="notify-fail">❌ Pin Didn't Match, Please try again</p>
-            <p class="notify" id="notify-success">✅ Pin Matched... Secret door is opening for you</p>
-        </div>
+        </div>        
     </div>
 
 

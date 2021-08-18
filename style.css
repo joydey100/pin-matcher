@@ -103,13 +103,14 @@ input[readonly]:focus {
   background: #222436;
   margin-top: 20px;
   border-radius: 15px;
-  padding: 5px 20px;
+  padding: 10px 20px;
   display: none;
 }
 .notify-section {
-  width: 35%;
+  width: 50%;
   margin: 0 auto;
 }
+
 .action-left {
   color: #ff3c5f;
   margin-top: 10px;
