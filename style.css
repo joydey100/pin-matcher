@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 * {
   box-sizing: border-box;
 }
 body {
   background: #10101b;
   height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   margin-top: 30px;
@@ -18,7 +21,7 @@ body {
 .generate-btn {
   margin-top: 140px;
   width: 180px;
-  padding: 50px;
+  height: 180px;
   border-radius: 50%;
   border: 8px solid #39458c;
   background-color: #495bc3;
